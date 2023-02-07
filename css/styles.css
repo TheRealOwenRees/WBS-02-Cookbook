@@ -1,0 +1,31 @@
+/* General div stule for the carousel, 
+has to be applied togehter with the id */
+.carousel-image-container {
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#puttanesca-image01 {
+    background-image: url("../images/pasta_alla_puttanesca_03.jpg");
+}
+#puttanesca-image02 {
+    background-image: url("../images/pasta_alla_puttanesca_01.jpg");
+}
+#puttanesca-image03 {
+    background-image: url("../images/pasta_alla_puttanesca_02.jpg");
+}
+
+#carbonare-image01 {
+    background-image: url("../images/carbonara01.webp");
+}
+#carbonare-image02 {
+    background-image: url("../images/carbonara02.webp");
+}
+#carbonare-image03 {
+    background-image: url("../images/carbonara03.webp");
+}
+#carbonare-image04 {
+    background-image: url("../images/carbonara01.webp");
+}
