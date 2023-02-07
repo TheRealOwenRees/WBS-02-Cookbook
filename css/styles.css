@@ -1,7 +1,29 @@
+/* GLOBAL CSS */
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
 /* General div stule for the carousel, 
 has to be applied togehter with the id */
 .carousel-image-container {
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,3 +51,5 @@ has to be applied togehter with the id */
 #carbonare-image04 {
     background-image: url("../images/carbonara01.webp");
 }
+
+
