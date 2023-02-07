@@ -1,6 +1,6 @@
 /* GLOBAL CSS */
 h1 {
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 h2 {
@@ -23,7 +23,7 @@ a:hover {
 /* General div stule for the carousel, 
 has to be applied togehter with the id */
 .carousel-image-container {
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
