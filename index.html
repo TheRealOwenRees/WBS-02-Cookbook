@@ -33,11 +33,28 @@
             <div class="col-12 col-md-6 py-3">
                 <a href="1.html">
                     <div id="puttanesca-image02" class="index-image-container index-popover1" 
-                        data-bs-title="Pasta alla Puttanesca"  
-                        data-bs-content="And here's some amazing content. It's very engaging. Right?" 
+                        html = "true"
+                        data-bs-html = "true"
+                        data-bs-title="Pasta alla Puttanesca"
+                        data-bs-content='
+                        <div>
+                            <h3>Ingredients:</h3>
+                            <hr />
+                            <p>Spaghetti - 320g</p>
+                            <p>Peeled tomatoes - 800g</p>
+                            <p>Anchovies in oil - 25g</p>
+                            <p>Capers in salt - 10g</p>
+                            <p>Parsley - 1 bunch</p>
+                            <p>Garlic</p>
+                            <p>Garlic - 3 cloves</p>
+                            <p>Dried chilli - 2</p>
+                            <p>Extra virgin olive oil = 30g</p>
+                            <p>Salt - to taste</p>
+                        </div>'
                         data-bs-trigger="hover focus"
-                        data-bs-placement="top"
-                        data-bs-custom-class="index-popovers">
+                        data-bs-placement="bottom"
+                        data-bs-custom-class="index-popovers"
+                        html="true">
                     </div>
                     <h3 class="text-uppercase">Pasta alla Puttanesca</h3>
                 </a>
@@ -45,8 +62,20 @@
             <div class="col-12 col-md-6 py-3">
                 <a href="3.html">
                     <div id="carbonara-image01" class="index-image-container index-popover2" 
+                        html = "true"
+                        data-bs-html = "true"
                         data-bs-title="Spaghetti Carbonara"  
-                        data-bs-content="And here's some amazing content. It's very engaging. Right?" 
+                        data-bs-content='
+                        <div>
+                            <h3>Ingredients:</h3>
+                            <hr />
+                            <p>Spaghetti, mezze maiche or rigatoni - 350g</p>
+                            <p>Guanciale or rindless bacon - 115g</p>
+                            <p>Pecorino Romano or Parmigiano Reggiano (grated) - 30g</p>
+                            <p>Fresh large egg yolks - 4</p>
+                            <p>Salt</p>
+                            <p>Black pepper</p>
+                        </div>' 
                         data-bs-trigger="hover focus"
                         data-bs-placement="top"
                         data-bs-custom-class="index-popovers">
@@ -57,8 +86,23 @@
             <div class="col-12 col-md-6 py-3">
                 <a href="2.html">
                     <div id="homus-image1" class="index-image-container index-popover3"
-                        data-bs-title="Lebanese Homus"  
-                        data-bs-content="And here's some amazing content. It's very engaging. Right?" 
+                        html = "true"
+                        data-bs-html = "true"
+                        data-bs-title="Lebanese Homus"
+                        data-bs-content='
+                        <div>
+                            <h3>Ingredients:</h3>
+                            <hr />
+                            <p>ounces cans chickpeas - 2-15 oz</p>
+                            <p>Garlic, crushed - 2 pieces</p>
+                            <p>Tahini paste - 1/4 cup</p>
+                            <p>Freshly squeezed lemon juice - 1/3 cup</p>
+                            <p>Extra virgin olive oil - 1/4 cup</p>
+                            <p>Paprika - 1/4 piece</p>
+                            <p>Salt - 1/4 spoon</p>
+                            <p>Cold water - 3 tbsp</p>
+                            <p>Pine nuts - 20g</p>
+                        </div>' 
                         data-bs-trigger="hover focus"
                         data-bs-placement="top"
                         data-bs-custom-class="index-popovers">
@@ -119,26 +163,30 @@
           <span class="text-muted">Place sticky footer content here.</span>
         </div>
       </footer>
+    
+      <script
+			  src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+			  integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+			  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-            crossorigin="anonymous"></script>
+    <script>
+        const popover1 = new bootstrap.Popover('.index-popover1',  {
+            container: 'body'
+        })
+        const popover2 = new bootstrap.Popover('.index-popover2', {
+            container: 'body'
+        })
+        const popover3 = new bootstrap.Popover('.index-popover3', {
+            container: 'body'
+        })
 
-        <script>
-            const popover1 = new bootstrap.Popover('.index-popover1', {
-                container: 'body'
-            })
-            const popover2 = new bootstrap.Popover('.index-popover2', {
-                container: 'body'
-            })
-            const popover3 = new bootstrap.Popover('.index-popover3', {
-                container: 'body'
-            })
-
-        </script>
+    </script>
 </body>
 
 </html>
