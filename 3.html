@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Cookbook</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light bg-white py-5">
+    <div class="container justify-content-end">
+      <!-- <button class="navbar-toggler" type="button" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <a href="./index.html"><h1 class="text-uppercase">The International Yummy Guide</h1></a>
+    </div>
+  </nav>
+
+  <main class="container p-4">
+    <div class="row">
+      <div class="col">
+        <h2 class="text-uppercase">Serves: 4 | Prep Time: 20 Minutes | Cook Time: 20 Minutes</h2>
+        <hr />
+      </div>
+    </div>
+    <div class="row justify-content-center" id="image-container">
+      <div class="col-12 text-center">
+        <div class="row mt-2">
+          <div id="recipeAlbum" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#recipeAlbum" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#recipeAlbum" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#recipeAlbum" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div id="carbonara-image01" class="d-block w-100 carousel-image-container"></div>
+                <!-- <img src="./images/pasta_alla_puttanesca_03.jpg" /> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Spaghetti Carbonara</h5>
+                  <p>Step away from the cream!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div id="carbonara-image02" class="d-block w-100 carousel-image-container"></div>
+                <!-- <img src="./images/pasta_alla_puttanesca_01.jpg" /> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Spaghetti Carbonara</h5>
+                  <p>Step away from the cream!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recipeAlbum" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recipeAlbum" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 my-4">
+        <h3>Ingredients</h3>
+        <hr />
+        <table class="table table-sm table-hover">
+          <tbody>
+            <tr>
+              <td>Spaghetti, mezze maniche or rigatoni</td>
+              <td>350g</td>
+            <tr>
+            </tr>
+                <td>Guanciale or rindless bacon</td>
+                <td>115g</td>
+            <tr>
+            </tr>
+                <td>grated Pecorino Romano (or Parmigiano Reggiano)</td>
+                <td>30g</td>
+            <tr>
+            </tr>
+                <td>Fresh large egg yolks</td>
+                <td>4</td>
+            <tr>
+            </tr>
+                <td>Salt</td>
+                <td></td>
+            <tr>
+            </tr>
+                <td>Black Pepper</td>
+                <td></td>
+        </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-12 col-md-6 my-4">
+        <h3>Instructions</h3>
+        <hr />
+        <p>Cut the guanciale into ¼″ layers, then into long, 2″ strips.</p>
+
+        <p>Combine the egg yolks with the grated cheese and a pinch of black pepper.</p>
+
+        <p>Brown the strips of guanciale for 2 minutes in a pan, until crisp, then turn off the heat and leave to cool.</p>
+
+        <p>Bring a large pot of water to a boil. Add salt. Cook the pasta, setting aside a ladleful of the pasta cooking water, until al dente. Drain.</p>
+
+        <p>Pour the reserved hot water into the frying pan with the cooled guanciale, then transfer the pasta to the same pan and mix together. Add the yolk and cheese mixture, stirring rapidly.</p>
+
+        <p>In the warm pan with the hot pasta, the eggs will cook gently and become creamy - don't stir over heat otherwise the carbonara will become lumpy. It's important to stir quickly to prevent the yolks from congealing and taking on the texture of scrambled eggs.</p>
+
+        <p>Season with freshly milled black pepper and serve immediately on heated plates.</p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+      <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

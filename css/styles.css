@@ -56,17 +56,11 @@ has to be applied togehter with the id */
     background-image: url("../images/pasta_alla_puttanesca_02.jpg");
 }
 
-#carbonare-image01 {
-    background-image: url("../images/carbonara01.webp");
+#carbonara-image01 {
+    background-image: url("../images/carbonara1.jpg");
 }
-#carbonare-image02 {
-    background-image: url("../images/carbonara02.webp");
-}
-#carbonare-image03 {
-    background-image: url("../images/carbonara03.webp");
-}
-#carbonare-image04 {
-    background-image: url("../images/carbonara01.webp");
+#carbonara-image02 {
+    background-image: url("../images/carbonara2.jpg");
 }
 
 
