@@ -23,12 +23,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/* .carousel-inner img {
-    position: relative;
-    text-align: center;
-    max-width: 100%;
-    max-height: 50vh;
-} */
+/* Popover CSS */
+.index-popovers {
+    --bs-popover-header-bg: rgb(100, 185, 93);
+}
 
 /* General div stule for the carousel, 
 has to be applied togehter with the id */
@@ -56,15 +54,22 @@ has to be applied togehter with the id */
     background-image: url("../images/pasta_alla_puttanesca_02.jpg");
 }
 
-#carbonare-image01 {
-    background-image: url("../images/carbonara01.webp");
+#carbonara-image01 {
+    background-image: url("../images/carbonara1.jpg");
 }
-#carbonare-image02 {
-    background-image: url("../images/carbonara02.webp");
+#carbonara-image02 {
+    background-image: url("../images/carbonara2.jpg");
 }
-#carbonare-image03 {
-    background-image: url("../images/carbonara03.webp");
+
+
+/* second Recipe Start */
+
+#homus-image1 {
+    background-image: url("../images/homus1.jpg");
 }
-#carbonare-image04 {
-    background-image: url("../images/carbonara01.webp");
+#homus-image2 {
+    background-image: url("../images/Hummus2.webp");
+}
+#homus-image3 {
+    background-image: url("../images/homus3.jpg");
 }
