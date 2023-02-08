@@ -68,3 +68,16 @@ has to be applied togehter with the id */
 #carbonare-image04 {
     background-image: url("../images/carbonara01.webp");
 }
+
+
+/* second Recipe Start */
+
+#homus-image1{
+    background-image: url("../images/homus1.jpg");
+}
+#homus-image2{
+    background-image: url("../images/Hummus2.webp");
+}
+#homus-image3{
+    background-image: url("../images/homus3.jpg");
+}
