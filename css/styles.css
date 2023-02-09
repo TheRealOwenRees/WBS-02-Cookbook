@@ -1,5 +1,10 @@
 /* GLOBAL CSS */
+.navbar-brand{
+    font-size: 35px;
+    color: gray;
+    padding-bottom: 16px;
 
+}
 .container {
     max-width: 860px;
 }
@@ -67,7 +72,7 @@ has to be applied togehter with the id */
 }
 
 
-/* second Recipe Start */
+/* Lebanese Recipe Start */
 
 #homus-image1 {
     background-image: url("../images/homus1.jpg");
