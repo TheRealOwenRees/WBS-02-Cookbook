@@ -33,6 +33,7 @@ a:hover {
 /* Popover CSS */
 .index-popovers {
     --bs-popover-header-bg: rgb(100, 185, 93);
+    --bs-popover-bg: rgb(204, 255, 199);
 }
 
 /* General div stule for the carousel, 
