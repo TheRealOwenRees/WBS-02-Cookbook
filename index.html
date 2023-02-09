@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="./js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+            integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+            crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous" defer></script>
     <title>Cookbook</title>
 </head>
-
 <body>
-
     <nav class="navbar navbar-light bg-white py-5">
         <div class="container justify-content-start">
             <!-- <button class="navbar-toggler" type="button" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button> -->
-                <a class="navbar-brand" href="#"><i class='bx bx-restaurant'></i></i></a>
-                <a href="#"><h1 class="text-uppercase" justify-content-start>The International Yummy Guide</h1></a> 
-                </div>
-            
+            <a class="navbar-brand" href="#"><i class='bx bx-restaurant'></i></i></a>
+            <a href="#"><h1 class="text-uppercase" justify-content-start>The International Yummy Guide</h1></a> 
+        </div>    
     </nav>
     <main class="container p-4">
         <div class="row">
@@ -118,78 +124,16 @@
                     <h3 class="text-uppercase">Onion Pakoda</h3>
                 </a>
             </div>
-
-            <!-- <div class="col-12 text-center">
-
-                <a href="1.html">
-                    <div class="row mt-2">
-                        <div id="puttanesca-image02" class="index-image-container"></div>
-                    </div>
-                    <div class="row text-end pb-3">
-                        <h3 class="text-uppercase">Pasta alla Puttanesca</h3>
-                    </div>
-                </a>
-
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-        
-                        <a href="./2.html">
-                            <div class="row mt-2">
-                                <div id="homus-image1" class="carousel-image-container"></div>
-                            </div>
-                            <div class="row text-end pb-3">
-                                <h3 class="text-uppercase">Lebanese Hummus</h3>
-                            </div>
-                        </a>
-
-                <div class="row mt-2">
-                    <img src="https://via.placeholder.com/500x200" />
-                </div>
-                <div class="row text-end pb-3">
-                    <h3 class="text-uppercase">Pork & Ginger Postickers</h3>
-                </div>
-
-                <div class="row mt-2">
-                    <img src="https://via.placeholder.com/500x200" />
-                </div>
-                <div class="row text-end pb-3">
-                    <h3 class="text-uppercase">Pork & Ginger Postickers</h3>
-                </div>
-
-            </div> -->
         </div>
     </main>
-
-   <footer class="footer mt-auto py-3 bg-light">
+    <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
-          <span class="text-muted"><p class="copyright">
-            &copy; copyright 1992&mdash;<span id="curYr"></span>
-        </p></span>
+            <span class="text-muted">
+                <p class="copyright">
+                    &copy; copyright 1992&mdash;<span id="curYr"></span>
+                </p>
+            </span>
         </div>
-      </footer>
-      <script src="./js/script.js"></script>
-      <script
-			  src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
-			  integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
-			  crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-        crossorigin="anonymous"></script>
-
-    <script>
-        const popover1 = new bootstrap.Popover('.index-popover1',  {
-            container: 'body'
-        })
-        const popover2 = new bootstrap.Popover('.index-popover2', {
-            container: 'body'
-        })
-        const popover3 = new bootstrap.Popover('.index-popover3', {
-            container: 'body'
-        })
-    </script>
+    </footer>
 </body>
-
 </html>
