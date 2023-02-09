@@ -1,9 +1,13 @@
 /* GLOBAL CSS */
-.navbar-brand{
+nav div {
+    display: flex;
+    justify-content: center;
+}
+.navbar-brand {
+    flex: 1 1 auto;
     font-size: 35px;
     color: gray;
-    padding-bottom: 16px;
-
+    /* padding-bottom: 16px; */
 }
 .container {
     max-width: 860px;
@@ -55,11 +59,9 @@ has to be applied togehter with the id */
 #puttanesca-image01 {
     background-image: url("../images/pasta_alla_puttanesca_03.jpg");
 }
-
 #puttanesca-image02 {
     background-image: url("../images/pasta_alla_puttanesca_01.jpg");
 }
-
 #puttanesca-image03 {
     background-image: url("../images/pasta_alla_puttanesca_02.jpg");
 }
@@ -67,22 +69,18 @@ has to be applied togehter with the id */
 #carbonara-image01 {
     background-image: url("../images/carbonara1.jpg");
 }
-
 #carbonara-image02 {
     background-image: url("../images/carbonara2.jpg");
 }
 
 
 /* Lebanese Recipe Start */
-
 #homus-image1 {
     background-image: url("../images/homus1.jpg");
 }
-
 #homus-image2 {
     background-image: url("../images/Hummus2.webp");
 }
-
 #homus-image3 {
     background-image: url("../images/homus3.jpg");
 }
@@ -91,11 +89,9 @@ has to be applied togehter with the id */
 #recipe-image1 {
     background-image: url("../images/recipe_image1.jpg");
 }
-
 #recipe-image2 {
     background-image: url("../images/recipe_image2.jpg");
 }
-
 #recipe-image3 {
     background-image: url("../images/recipe_image3.jpg");
 }
