@@ -1,40 +1,62 @@
 /* GLOBAL CSS */
-.navbar-brand{
-    font-size: 35px;
-    color: gray;
-    padding-bottom: 16px;
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1em;
+}
+h3 {
+    font-size: 1.2em;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 
+
+
+/* Header styles */
+nav div {
+    display: flex;
+    justify-content: center;
 }
 .container {
     max-width: 860px;
 }
 
-h1 {
-    font-size: 1.8em;
+
+
+/* Footer styles */
+.bx-restaurant {
+    font-size: 150px;
+    float: right
+}
+.copyright {
+    margin: 0;
+    padding: 0;
+}
+.icon-container {
+    display: flex;
+}
+.navbar-brand {
+    flex: 1 1 auto;
+    align-items: end;
+    font-size: 35px;
+    color: gray;
+    /* padding-bottom: 16px; */
 }
 
-h2 {
-    font-size: 1em;
-}
-
-h3 {
-    font-size: 1.2em;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 /* Popover CSS */
 .index-popovers {
     --bs-popover-header-bg: rgb(100, 185, 93);
     --bs-popover-bg: rgb(204, 255, 199);
 }
+
+
 
 /* General div stule for the carousel, 
 has to be applied togehter with the id */
@@ -44,7 +66,6 @@ has to be applied togehter with the id */
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .index-image-container {
     height: 400px;
     background-position: center;
@@ -52,37 +73,32 @@ has to be applied togehter with the id */
     background-repeat: no-repeat;
 }
 
+/* Puttanesca Recipe Start */
 #puttanesca-image01 {
     background-image: url("../images/pasta_alla_puttanesca_03.jpg");
 }
-
 #puttanesca-image02 {
     background-image: url("../images/pasta_alla_puttanesca_01.jpg");
 }
-
 #puttanesca-image03 {
     background-image: url("../images/pasta_alla_puttanesca_02.jpg");
 }
 
+/* Carbonara Recipe Start */
 #carbonara-image01 {
     background-image: url("../images/carbonara1.jpg");
 }
-
 #carbonara-image02 {
     background-image: url("../images/carbonara2.jpg");
 }
 
-
 /* Lebanese Recipe Start */
-
 #homus-image1 {
     background-image: url("../images/homus1.jpg");
 }
-
 #homus-image2 {
     background-image: url("../images/Hummus2.webp");
 }
-
 #homus-image3 {
     background-image: url("../images/homus3.jpg");
 }
@@ -91,11 +107,9 @@ has to be applied togehter with the id */
 #recipe-image1 {
     background-image: url("../images/recipe_image1.jpg");
 }
-
 #recipe-image2 {
     background-image: url("../images/recipe_image2.jpg");
 }
-
 #recipe-image3 {
     background-image: url("../images/recipe_image3.jpg");
 }
